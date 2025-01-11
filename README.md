@@ -1,4 +1,4 @@
-     # EcoTrack: AI-Powered Carbon Footprint Tracker
+      # EcoTrack: AI-Powered Carbon Footprint Tracker
 
 ## Overview
 EcoTrack is a web application that helps users monitor their carbon footprint by tracking daily activities such as energy usage, transportation, and food consumption. By leveraging AI, EcoTrack offers personalized recommendations to reduce carbon emissions and live a more sustainable life.
