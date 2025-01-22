@@ -1,4 +1,3 @@
-  
 from flask import Flask, request, jsonify
 import numpy as np
 from sklearn.linear_model import LinearRegression
