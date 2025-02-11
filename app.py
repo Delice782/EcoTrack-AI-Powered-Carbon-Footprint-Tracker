@@ -1,4 +1,3 @@
-                              
 from flask import Flask, request, jsonify
 import numpy as np
 from sklearn.linear_model import LinearRegression
@@ -29,9 +28,8 @@ def predict_carbon_footprint():
         carbon_footprint = model.predict(features)
 
         return jsonify({'carbon_footprint': carbon_footprint[0]})
-
     except Exception as e:
         return jsonify({'error': str(e)}), 400
-
+      
 if __name__ == '__main__':
     app.run(debug=True)
