@@ -13,6 +13,7 @@ with open('models/carbon_footprint_model.pkl', 'rb') as model_file:
 @app.route('/')
 def home():
     return "Welcome to EcoTrack API!"
+  
 @app.route('/predict', methods=['POST'])
 def predict_carbon_footprint():
     try:
