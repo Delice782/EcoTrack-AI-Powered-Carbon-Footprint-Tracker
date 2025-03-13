@@ -1,4 +1,4 @@
-     
+      
 # EcoTrack: AI-Powered Carbon Footprint Tracker
 
 ## Overview
